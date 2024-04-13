@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>course</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">  -->
+    <!-- <script src='main.js'></script> -->
+</head>
+<body>
+
+    
+<section class=" sub-header">
+<nav>
+    <a class="logo" href="index.html"><img src="./Img/AIMT.webp" ></a>
+    <div class="nav-links" id="navlinks">
+        <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+
+
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>Our Courses</h1>
+</section>
+
+<!-- ---------------Our courses------------------- -->
+
+<section class="course">
+    <h1><b>Courses We Offer</b></h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intemediate</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam aliquam, ex nulla commodi ad inventore sit ab quia quod eum rerum minus distinctio, libero dignissimos? Saepe incidunt provident voluptatem ut.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ratione, suscipit sequi tempore nisi dignissimos nobis doloremque officia? Unde voluptatibus dolorum recusandae amet adipisci corrupti, quis omnis iusto alias modi.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ratione, suscipit sequi tempore nisi dignissimos nobis doloremque officia? Unde voluptatibus dolorum recusandae amet adipisci corrupti, quis omnis iusto alias modi.</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- --------------------facilities------------------------ -->
+<section class="facilities">
+    <h1><b>Our Facilities</b></h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="./Img/library.png">
+            <h3><br>World class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde velit rerum voluptate commodi cumque quaerat sunt ea omnis optio, dolorum corporis distinctio a nobis deserunt laborum accusamus soluta quibusdam?</p>
+        </div>
+        <div class="facilities-col">
+            <img src="./Img/basketball.png">
+            <h3><br>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde velit rerum voluptate commodi cumque quaerat sunt ea omnis optio, dolorum corporis distinctio a nobis deserunt laborum accusamus soluta quibusdam?</p>
+        </div>
+        <div class="facilities-col">
+            <img src="./Img/cafeteria.png">
+            <h3><br>Tasty and healthy food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde velit rerum voluptate commodi cumque quaerat sunt ea omnis optio, dolorum corporis distinctio a nobis deserunt laborum accusamus soluta quibusdam?</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!----------------Footer-------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatum, facere maiores dolores sit repudiandae cum omnis quaerat incidunt id, harum<br> debitis dolorum quasi porro nostrum quisquam quis consequatur ipsam?</p>    
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>Made with <i class="fa fa-heart-o"></i> by Ashish Ujjwal</p>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!------------JAVASCRIPT FOR TOGGLE MENU  ---------->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

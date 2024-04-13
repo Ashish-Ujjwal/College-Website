@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Blog</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">  -->
+    <!-- <script src='main.js'></script> -->
+</head>
+<body>
+
+    
+<section class=" sub-header">
+<nav>
+    <a class="logo" href="index.html"><img src="./Img/AIMT.webp" ></a>
+    <div class="nav-links" id="navlinks">
+        <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+
+
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>Our Certificate & Online programs For 2022</h1>
+</section>
+
+<!-- -------------------Blog Page content------------------- -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="./Img/certificate.jpg" alt="">
+            <h2>Our Certificates & online Programs For 2022</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam deleniti impedit, eveniet corrupti, reiciendis culpa, vel voluptatibus esse aperiam quae earum consequatur. Molestias nam ea laboriosam! Totam accusantium ratione illo?</p>
+            <br><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus architecto praesentium, deserunt nostrum quo, rem illum doloribus accusantium aperiam nesciunt similique doloremque a id nisi, molestiae eaque nihil possimus?</p>
+            <br><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus architecto praesentium, deserunt nostrum quo, rem illum doloribus accusantium aperiam nesciunt similique doloremque a id nisi, molestiae eaque nihil possimus?</p>
+            <br><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus architecto praesentium, deserunt nostrum quo, rem illum doloribus accusantium aperiam nesciunt similique doloremque a id nisi, molestiae eaque nihil possimus?</p>
+            <br><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus architecto praesentium, deserunt nostrum quo, rem illum doloribus accusantium aperiam nesciunt similique doloremque a id nisi, molestiae eaque nihil possimus?</p>
+            <br><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus architecto praesentium, deserunt nostrum quo, rem illum doloribus accusantium aperiam nesciunt similique doloremque a id nisi, molestiae eaque nihil possimus?</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="10" placeholder="Your Comments"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="blog-right">
+        
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>50</span>
+            </div>
+            <div>
+                <span>Competitive Programming</span>
+                <span>20</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<!----------------Footer-------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatum, facere maiores dolores sit repudiandae cum omnis quaerat incidunt id, harum<br> debitis dolorum quasi porro nostrum quisquam quis consequatur ipsam?</p>    
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>Made with <i class="fa fa-heart-o"></i> by Ashish Ujjwal</p>
+    </div>
+</section>
+
+
+<!------------JAVASCRIPT FOR TOGGLE MENU  ---------->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
